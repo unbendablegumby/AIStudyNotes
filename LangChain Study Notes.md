@@ -12,12 +12,11 @@ Miguel Munoz 15/12/2023
 1. **Composability**
 	- Developers can construct apps by chaining calls to LLMs or other utilities
 2. **Chain**
-	![[images/LangChainStudyNotes-2ChainExample.png]]
+	![[./images/LangChainStudyNotes-2ChainExample.png]]    
 	- A chain wraps up a Prompt and an LLM call, and is provided with a structured input and can produce a structured output (much like a function) 
 	- Chains can be linked together to produce a more complex pipeline. Providing the ability to build re-usable text generation pipelines
 3. **Modular Design**
-![[images/LangChainStudyNotes-Composability.png]]
-	![[Pasted image 20231215135400.png]]
+    ![[./images/LangChainStudyNotes-Composability.png]]
 	- Makes it easy for developers to plug in different components providing flexibility and the ability to experiment with different models and approaches. 
 	- For example it provides a standard interface for working with a many LLMs allowing the developer to select from a variety of LLM providers (OpenAI, Cohere, Hugging Face, etc) and the ability to swap and comparing between them.
 4. **Agents**
@@ -85,7 +84,7 @@ Miguel Munoz 15/12/2023
 4. **Memory**
 	- Tools for adding memory to a system, with options ranging from retaining the entirety of all conversations to retaining a summarization of the conversation.
 5. **Agents**
-![[images/LangChainStudyNotes-AgentExample.png]]
+![[./images/LangChainStudyNotes-AgentExample.png]]
 	- Agents can be provided with
 		- User Input (prompts and queries providing an objective)
 		- Tools that can be leveraged (e.g. Functions that contain APIs)
@@ -128,7 +127,7 @@ Miguel Munoz 15/12/2023
 7. **Research and Development**: Companies doing R&D sector can use LangChain for experimental AI projects, proof of concepts and prototyping, benefiting from its ability to integrate various models and tools 
 
 ## Ecosystem
-![[images/LangChain-Stack---split---V3.png]]
+![[./images/LangChain-Stack---split---V3.png]]
 Overview of LangChain ecosystem from https://blog.langchain.dev/the-new-langchain-architecture-langchain-core-v0-1-langchain-community-and-a-path-to-langchain-v0-1/ 
 
 1. **LangServe**
