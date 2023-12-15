@@ -12,6 +12,7 @@ Miguel Munoz 15/12/2023
 1. **Composability**
 	- Developers can construct apps by chaining calls to LLMs or other utilities
 2. **Chain**
+    ![Chain Example](./images/LangChainStudyNotes-2ChainExample.png)
 	![[./images/LangChainStudyNotes-2ChainExample.png]]    
 	- A chain wraps up a Prompt and an LLM call, and is provided with a structured input and can produce a structured output (much like a function) 
 	- Chains can be linked together to produce a more complex pipeline. Providing the ability to build re-usable text generation pipelines
