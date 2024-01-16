@@ -1,6 +1,5 @@
 
 # LangChain Study Notes 
-Miguel Munoz 15/12/2023
 
 ## Overview
 1. Launched in October 2022 as an open-source project by Harrison Chase, now has >70k stars on GitHub
